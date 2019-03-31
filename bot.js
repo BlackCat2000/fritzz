@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
- if (message.content === "f!help") {
+ if (message.content === "!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -20,9 +20,9 @@ Special orders ان برفكس الاوامر المميزه او
 
 يختلف عن جميع الاوامر 
 Special orders برفكس الاوامر المميزه او 
-f!!
+!
 اما برفكس باقي الاوامر
-f!
+!
 ***
 `)
 
@@ -35,7 +35,7 @@ message.author.sendEmbed(embed)
  
  
 client.on("message", message => {
- if (message.content === "f!help") {
+ if (message.content === "!help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -74,12 +74,12 @@ Fire bot
 
         ***__Bot orders__***
 **
-『f!ping / يعرض لك سرعه اتصال البوت』
-『f!uptime / يعرض لك صار للبوت كم شغال』
-『f!support / سيرفر الدعم القني و المساعده』
-『f!invite / اضافه البوت』
-『f!members / حاله الاعضاء』
-『f!bot / معلومات عن البوت』
+『!ping / يعرض لك سرعه اتصال البوت』
+『!uptime / يعرض لك صار للبوت كم شغال』
+『!support / سيرفر الدعم القني و المساعده』
+『!invite / اضافه البوت』
+『!members / حاله الاعضاء』
+『!bot / معلومات عن البوت』
 **
 
         ***__Administrative Orders__***
@@ -184,7 +184,43 @@ const Sra7a = [
 	 'صراحه  |  ما هي أمنياتك المُستقبلية؟‏',
 ]
    client.on('message', message => {
- if (message.content.startsWith('f!صراحه')) {
+ if (message.content.startsWith('
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				!صراحه')) {
      if(!message.channel.guild) return message.reply('** This command only for servers **');
   var client= new Discord.RichEmbed()
   .setTitle("لعبة صراحة ..")
@@ -256,7 +292,7 @@ const Za7f = [
 
 
  client.on('message', message => {
-   if (message.content.startsWith("f!عقاب")) {
+   if (message.content.startsWith("!عقاب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -313,7 +349,7 @@ message.channel.sendEmbed(cat);
 ]
 
  client.on('message', message => {
-   if (message.content.startsWith("f!كت تويت")) {
+   if (message.content.startsWith("!كت تويت")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
